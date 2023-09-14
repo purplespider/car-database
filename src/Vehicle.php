@@ -16,7 +16,7 @@ class Vehicle extends DataObject
         'Type' => "Enum('Saloon,Estate,SUV,Minibus','Saloon')",
         'Seats' => 'Int',
         'Doors' => 'Int',
-        'Transmission' => "Enum('Manual,Automatic','Manual')",
+        'Transmission' => "Enum('Manual,Automatic,Electic','Manual')",
         'Suitcases' => 'Int',
     ];
 
